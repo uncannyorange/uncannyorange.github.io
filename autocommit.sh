@@ -20,10 +20,8 @@ git commit -m "Updated Master"
 echo ================================================================================
 echo 
 
-git remote add origin $sshurl
-
 echo pulling origin...
-git pull origin
+git pull origin master
 echo
 git remote set-url origin $sshurl
 echo pushing to master ==============================================================
