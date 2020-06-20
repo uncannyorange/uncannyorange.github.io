@@ -7,9 +7,9 @@ permalink: /beta
 <br/>
 
 - [REVOLT](./revolt.html)
-- [MUTINY]()
-- [DISUNITY]()
-- [MULTI]()
+- [MUTINY](./mutiny.html)
+- [DISUNITY](./disunity.html)
+- [MULTI](./multi.html)
 - []()
 - []()
 - []()
