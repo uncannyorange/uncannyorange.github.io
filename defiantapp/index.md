@@ -6,7 +6,7 @@ permalink: /beta
 ### I really wish we knew this before because now we have to transfer everything.
 <br/>
 
-- [REVOLT]()
+- [REVOLT](./revolt.html)
 - [MUTINY]()
 - [DISUNITY]()
 - [MULTI]()
