@@ -1,5 +1,5 @@
 ---
-permalink
+permalink: /beta
 ---
 # The new thingy!
 ## No need for a shortcut anymore, just press and hold a link, share and add to home screen.
