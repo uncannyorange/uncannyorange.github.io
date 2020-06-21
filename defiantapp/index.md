@@ -6,6 +6,7 @@ permalink: /beta
 ### I really wish we knew this before because now we have to transfer everything.
 <br/>
 
+- [DEFIANT store]
 - [REVOLT](./revolt.html)
 - [MUTINY](./mutiny.html)
 - [DISUNITY](./disunity.html)
@@ -18,3 +19,7 @@ permalink: /beta
 - []()
 - []()
 - []()
+<br/>
+
+### Obsolete PWAs
+- [old DEFIANT store](./olddefiantstore.html)
