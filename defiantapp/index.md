@@ -6,7 +6,7 @@ permalink: /beta
 ### I really wish we knew this before because now we have to transfer everything.
 <br/>
 
-- [DEFIANT store]
+- [DEFIANT store]()
 - [REVOLT](./revolt.html)
 - [MUTINY](./mutiny.html)
 - [DISUNITY](./disunity.html)
