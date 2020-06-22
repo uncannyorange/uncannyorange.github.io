@@ -21,5 +21,11 @@ permalink: /beta
 - []()
 <br/>
 
-### Obsolete PWAs
+### CRIMSON PWAs
+CRIMSON is the wicked and corrupted department of DefiantDev. The deal with thinks like "How could we cause a literal revolt within the REVOLT PWA?". And that's what they've done. <br/>
+They are also masters of CSS. The pretty comes at a cost of participating in the corruption of this world. In my opinion, it's worth it.
+- [REVOLT+](./revolt+.html)
+<br/>
+
+### Legacy PWAs
 - [old DEFIANT store](./olddefiantstore.html)
