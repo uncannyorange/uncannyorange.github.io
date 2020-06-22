@@ -5,7 +5,7 @@ permalink: /collections
 <br/>
 
 ![ANARCHY collection](../graphics/anarchy.png)
-[⬛◾]()<br/>
+[⬛]()<br/>
 The main PWAs of the DEFIANT OS.
 - They have a fully custom icon
 - We work on these more often than the others
