@@ -25,7 +25,7 @@ permalink: /beta
 CRIMSON is the wicked and corrupted department of DefiantDev. They deal with things like "How could we cause a literal revolt within the REVOLT PWA?".<br/>
 And that's what they've done. <br/>
 They are also masters of CSS. The pretty comes at a cost of participating in the corruption of this world. In my opinion, it's worth it.
-- [CRIMSON (REVOLT+)](./revolt+.html)
+- [CRIMSON (REVOLT+)](../crimson/revolt+.html)
 <br/>
 <br/>
 
