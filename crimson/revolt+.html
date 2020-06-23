@@ -29,27 +29,6 @@ body,html{
 }
 </style>
 
-<script>
-  function UpdateURL(){
-    var AddressbarContents = document.getElementById("addressbar").value;
-    var iframe = document.getElementById("iframe");
-    var PrevURL= iframe.getAttribute("value");
-
-    iframe.setAttribute("src", AddressbarContents);
-  }
-  function EUL(){
-    var AddressbarContents = document.getElementById("addressbar").value;
-    window.location = AddressbarContents
-  }
-  function bing(){
-    var iframe = document.getElementById("iframe");
-
-    iframe.setAttribute("src", "https://www.bing.com/?toWww=1&redig=C3EA383034E549D39B653CCBA5DEA823");
-  }
-  function crimson_home(){
-    window.location.href='../crimson/home.html';
-  }
-</script>
 <script type='text/javascript' language='javascript' src='./console.js'></script>
 
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
