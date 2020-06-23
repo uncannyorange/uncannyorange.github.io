@@ -5,7 +5,7 @@ layout: crimson
 <br/>
 <br/>
 
-## CRIMSON 1.0
+### CRIMSON 1.0
 - Added crimson codes interface
 - Added a code bar for all pages
 - Fixed bugs:
@@ -17,6 +17,6 @@ layout: crimson
 <br/>
 <br/>
 
-## CRIMSON 1.0.1 (minor)
+### CRIMSON 1.0.1 (minor)
 - Removed MULTI since it will never work within CRIMSON
 - Added CRIMSON changelog instead

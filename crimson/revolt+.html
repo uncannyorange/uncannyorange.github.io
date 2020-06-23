@@ -49,29 +49,8 @@ body,html{
   function crimson_home(){
     window.location.href='../crimson/home.html';
   }
-  function crcode(){
-    var code = document.getElementById("crimsoncode").value;
-    var $content = document.getElementById("$content");
-    switch(code){
-        case "CR-001":
-          $content.setAttribute("src", '../crimson/revoltmain.html');
-        break;
-        case "CR-002":
-          $content.setAttribute("src", './home.html');
-        break;
-        case "CR-003":
-          $content.setAttribute("src", './qcdirectives.html');
-        break;
-        case "CR-004":
-          $content.setAttribute("src", '../beta');
-        break;
-        case "CR-005":
-        $content.setAttribute("src", './changelogu.html');
-        break;
-    }
-  }
 </script>
-
+<script type='text/javascript' language='javascript' src='./console.js'></script>
 
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -5504,7 +5483,7 @@ gDXQAxowoPdAI7jXqrd6rdwebg9rwBqwBqwBa8AasAasAWvAGhgKDfz/G3odueIY
 <div style="display:inline-block">
 
   <input type="text" id="crimsoncode" name="crimsoncode" value="CR-000" style="font-size:10pt; height:50%; width:90%; background-color: honeydew; font-family: Menlo;">
-  <button onclick="crcode()" style="color:crimson; font-size:10pt; height:50%; width:90%; background-color: honeydew; font-family: Menlo;">CRIMSON</button>
+  <button onclick="crcodetop()" style="color:crimson; font-size:10pt; height:50%; width:90%; background-color: honeydew; font-family: Menlo;">CRIMSON</button>
 
 </div>
 </div>
