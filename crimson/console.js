@@ -10,19 +10,19 @@ function crcodetop(){
     var $content = document.getElementById("$content");
     switch(code){
         case "CR-001":
-          $content.setAttribute("src", '../crimson/revoltmain.html');
+            $content.setAttribute("src", cr001);
         break;
         case "CR-002":
-          $content.setAttribute("src", './home.html');
+            $content.setAttribute("src", cr002);
         break;
         case "CR-003":
-          $content.setAttribute("src", './qcdirectives.html');
+            $content.setAttribute("src", cr003);
         break;
         case "CR-004":
-          $content.setAttribute("src", '../beta');
+            $content.setAttribute("src", cr004);
         break;
         case "CR-005":
-        $content.setAttribute("src", './changelogu.html');
+            $content.setAttribute("src", cr005);
         break;
     }
 }
