@@ -1,0 +1,4 @@
+---
+layout: crimson
+---
+# CRIMSON changelog
