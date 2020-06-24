@@ -30,3 +30,7 @@ layout: crimson
 [CRB-31] The frame was slightly off, causing half a line of content falling off screen
 <br/>
 <br/>
+
+### CRIMSON 1.0.3 (minor)
+- Tweaked style
+- Relocated style sheet to a seperate CSS file for faster processing
