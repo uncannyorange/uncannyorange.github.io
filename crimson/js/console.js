@@ -1,10 +1,10 @@
 var code = document.getElementById("crimsoncode").value;
 
-const cr001 = require('./revoltmain.html')
-const cr002 = require('./home.html')
-const cr003 = require('./qcdirectives.html')
-const cr004 = require('../beta')
-const cr005 = require('./changelogu.html')
+const cr001 = require('../revoltmain.html')
+const cr002 = require('../home.html')
+const cr003 = require('../qcdirectives.html')
+const cr004 = require('.../beta')
+const cr005 = require('../changelogu.html')
 
 function crcodetop(){
     var content = document.getElementById("$content");
