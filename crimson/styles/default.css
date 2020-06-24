@@ -11,11 +11,12 @@ a {
 }
 
 input {
+    font-family: Menlo;
     color: black;
     background-color: azure;
 }
 
-.button{
+button{
     font-family: Menlo;
     background-color: azure;
     color: crimson;
