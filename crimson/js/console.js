@@ -1,6 +1,5 @@
-var code = document.getElementById("crimsoncode").value;
-
 function crcodetop(){
+    var code = document.getElementById("crimsoncode").value;
     var content = document.getElementById("$content");
     switch(code){
         case "CR-001":
@@ -22,6 +21,7 @@ function crcodetop(){
 }
 
 function crcode(){
+    var code = document.getElementById("crimsoncode").value;
     switch(code){
         case "CR-001":
             window.location.href='./revoltmain.html';
