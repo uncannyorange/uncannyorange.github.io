@@ -39,3 +39,8 @@ layout: crimson
 
 ### CRIMSON 1.0.4 (minor)
 - Tweaked style (again)
+<br/>
+<br/>
+
+### CRIMSON 1.0.5 (minor)
+- Fixed tweaked style (hopefully for good now)
