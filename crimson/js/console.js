@@ -1,28 +1,28 @@
 var code = document.getElementById("crimsoncode").value;
 
-const cr001 = './revoltmain.html'
-const cr002 = './home.html'
-const cr003 = './qcdirectives.html'
-const cr004 = '../beta'
-const cr005 = './changelogu.html'
+const cr001 = require('./revoltmain.html')
+const cr002 = require('./home.html')
+const cr003 = require('./qcdirectives.html')
+const cr004 = require('../beta')
+const cr005 = require('./changelogu.html')
 
 function crcodetop(){
-    var $content = document.getElementById("$content");
+    var content = document.getElementById("$content");
     switch(code){
         case "CR-001":
-            $content.setAttribute("src", cr001);
+            content.setAttribute("src", cr001);
         break;
         case "CR-002":
-            $content.setAttribute("src", cr002);
+            content.setAttribute("src", cr002);
         break;
         case "CR-003":
-            $content.setAttribute("src", cr003);
+            content.setAttribute("src", cr003);
         break;
         case "CR-004":
-            $content.setAttribute("src", cr004);
+            content.setAttribute("src", cr004);
         break;
         case "CR-005":
-            $content.setAttribute("src", cr005);
+            content.setAttribute("src", cr005);
         break;
     }
 }
