@@ -20,9 +20,34 @@ button{
     font-family: Menlo;
     background-color: azure;
     color: crimson;
-    font-size:10pt;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    /*border: none;*/
+}
+
+.crimsondew{
+    font-family: Menlo;
+    color: crimson;
+    background-color: honeydew;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.crimsonzure{
+    font-family: Menlo;
+    color: crimson;
+    background-color: azure;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.crimsonkeys{
+    font-family: Menlo;
+    color: crimson;
+    background-color: ivory;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
