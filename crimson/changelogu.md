@@ -34,3 +34,8 @@ layout: crimson
 ### CRIMSON 1.0.3 (minor)
 - Tweaked style
 - Relocated style sheet to a seperate CSS file for faster processing
+<br/>
+<br/>
+
+### CRIMSON 1.0.4 (minor)
+- Tweaked style (again)
