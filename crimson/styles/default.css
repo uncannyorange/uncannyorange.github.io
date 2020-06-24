@@ -10,6 +10,11 @@ a {
     color: azure;
 }
 
+input {
+    color: black;
+    background-color: azure;
+}
+
 button{
     font-family: Menlo;
     background-color: azure;
