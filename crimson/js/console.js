@@ -1,9 +1,11 @@
+const cr001 = './revoltmain.html'
+
 function crcodetop(){
     var code = document.getElementById("crimsoncode").value;
     var content = document.getElementById("$content");
     switch(code){
         case "CR-001":
-            content.setAttribute("src", './revoltmain.html');
+            content.setAttribute("src", cr001);
         break;
         case "CR-002":
             content.setAttribute("src", './home.html');
