@@ -8,7 +8,7 @@ layout: crimson
 ### CRIMSON 1.0
 - Added crimson codes interface
 - Added a code bar for all pages
-- Fixed bugs:
+- Fixed bugs: <br/>
 [CRB-12] The CRIMSON app would not remember what page you were on after leaving for the home screen <br/>
 [CRB-15] You would stay stuck on pages if you waited longer than 10 seconds before switching <br/>
 [CRB-26] the color and font would not appear correctly and instead show the defaults <br/>
