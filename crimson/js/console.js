@@ -5,7 +5,7 @@ const cr004 = '../beta'
 const cr005 = './changelogu.html'
 
 function crcodetop(){
-    var code = document.getElementById("crimsoncode").value;
+    var code = document.forms["bar"]["code"].value;
     var content = document.getElementById("$content");
     switch(code){
         case "CR-001":

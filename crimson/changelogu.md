@@ -44,3 +44,14 @@ layout: crimson
 
 ### CRIMSON 1.0.5 (minor)
 - Fixed tweaked style (hopefully for good now)
+<br/>
+<br/>
+
+### CRIMSON 1.1.0
+- Added styles to the stylesheet
+- Removed CRIMSON button from top CR code bar
+- You can now use enter to submit the code in the top bar
+- Fixed bugs:
+[CRB-32] All CR codes stopped working
+<br/>
+<br/>
