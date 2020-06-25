@@ -25,8 +25,8 @@ layout: crimson
 
 ### CRIMSON 1.0.2 (minor)
 - Relocated console code to a seperate JS file for faster processing
-- Fixed bugs:
-[CRB-30] Using CR-001 in the top CRIMSON code bar resulted in the bar doubling
+- Fixed bugs:<br/>
+[CRB-30] Using CR-001 in the top CRIMSON code bar resulted in the bar doubling<br/>
 [CRB-31] The frame was slightly off, causing half a line of content falling off screen
 <br/>
 <br/>
@@ -51,7 +51,7 @@ layout: crimson
 - Added styles to the stylesheet
 - Removed CRIMSON button from top CR code bar
 - You can now use enter to submit the code in the top bar
-- Fixed bugs:
+- Fixed bugs:<br/>
 [CRB-32] All CR codes stopped working
 <br/>
 <br/>
