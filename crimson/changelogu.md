@@ -55,3 +55,8 @@ layout: crimson
 [CRB-32] All CR codes stopped working
 <br/>
 <br/>
+
+### CRIMSON 1.1.1
+- Updated icon
+<br/>
+<br/>
