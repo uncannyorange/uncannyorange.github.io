@@ -1,3 +1,6 @@
+---
+layout: crimson
+---
 # CRIMSON codes
 
 <small>[return to console](./home.html)</small>  

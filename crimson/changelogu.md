@@ -56,7 +56,13 @@ layout: crimson
 <br/>
 <br/>
 
-### CRIMSON 1.1.1
+### CRIMSON 1.1.1 (minor)
 - Updated icon
+<br/>
+<br/>
+
+### CRIMSON 1.1.2 (minor)
+- Fixed bugs:<br/>
+[CRB-33] CR codes screen lost it's styling
 <br/>
 <br/>
