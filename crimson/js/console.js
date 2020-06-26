@@ -56,13 +56,15 @@ function crcode(){
 
 
 // attempt at making a command manager for this
-const commands = require('./json/commsands.json')
+const commands = require('./json/commands.json')
 
 function crmanager(){
     var codebarcontent = document.forms["bar"]["code"].value;
     var content = document.getElementById("$content");
+    if(!content){return;};
 
     var code = commands[codebarcontent];
+    if(!code){return;};
 
     if(content){
         content.setAttribute("src", code);
