@@ -3,6 +3,7 @@ const cr002 = './home.html'
 const cr003 = './qcdirectives.html'
 const cr004 = '../beta'
 const cr005 = './changelogu.html'
+const cr006 = './paintbridges.html'
 
 function crcodetop(){
     var code = document.forms["bar"]["code"].value;
@@ -22,6 +23,9 @@ function crcodetop(){
         break;
         case "CR-005":
             content.setAttribute("src", cr005);
+        break;
+        case "CR-005":
+            content.setAttribute("src", cr006);
         break;
     }
 }
@@ -44,5 +48,26 @@ function crcode(){
         case "CR-005":
             window.location.href=cr005;
         break;
+        case "CR-006": 
+            window.location.href=cr006;
+        break;
     }
+}
+
+
+// attempt at making a command manager for this
+const commands = require('./json/commsands.json')
+
+function crmanager(){
+    var codebarcontent = document.forms["bar"]["code"].value;
+    var content = document.getElementById("$content");
+
+    var code = commands[codebarcontent];
+
+    if(content){
+        content.setAttribute("src", code);
+    }else{
+        window.location.href = code;
+    };
+
 }
