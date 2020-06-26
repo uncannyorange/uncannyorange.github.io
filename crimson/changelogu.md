@@ -66,3 +66,8 @@ layout: crimson
 [CRB-33] CR codes screen lost it's styling
 <br/>
 <br/>
+
+### CRIMSON 1.1.3 (live beta testing)
+- Testing new command manager system
+<br/>
+<br/>
