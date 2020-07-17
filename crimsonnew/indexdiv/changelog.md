@@ -10,8 +10,15 @@ layout: crimson
 ## CRIMSON 2
 <br/>
 
+### CRIMSON 2.0.1 (hey look, it's me!)
+- Added changelog to the control pannel
+<br/>
+<br/>
+
 ### CRIMSON 2.0.0 (semi-open beta)
 - Scrapped the old CRIMSON, remade it cleaner.
+<br/>
+<br/>
 
 <hr/>
 
