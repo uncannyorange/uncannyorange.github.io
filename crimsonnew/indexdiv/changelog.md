@@ -10,6 +10,9 @@ layout: crimson
 ## CRIMSON 2
 <br/>
 
+### CRIMSON 2.0.3 (semi-open beta)
+- Fixed icon when added to desktop
+
 ### CRIMSON 2.0.2 (hey look, it's me!)
 - Added changelog to the control pannel
 <br/>
