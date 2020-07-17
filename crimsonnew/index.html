@@ -14,7 +14,8 @@ CRIMSON
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
   $(function(){
-  $("#Home").load("e.html");
+  $("#Home").load("indexdiv/home.html");
+  $("#revolt+").load("indexdiv/revolt+.html");
   });
 </script>
 
@@ -9767,23 +9768,21 @@ YII">
 </head>
 
 
-
 <body>
 
 <!-- Tab links -->
 <div class="tab">
     <!-- Left aligned -->
-    <button class="tablinks active" onclick="openTab(event, 'Home')" href="#home">Home</button>
-    <button class="tablinks" onclick="openTab(event, 'CSS')" href="#css">CSS</button>
-    <button class="tablinks" onclick="openTab(event, 'Leaf')">Leaf PWA</button>
+    <button class="tablinks active" onclick="openTab(event, 'Home')">Home</button>
+    <button class="tablinks" onclick="openTab(event, 'revolt+')">REVOLT+</button>
+    <button class="tablinks" onclick="openTab(event, 'x')">x</button>
   
     <!-- Right aligned -->
-    <button class="tablinks" onclick="openTab(event, 'ControlPannel')" href="#cntrlpannel" style="float: right;">Control pannel</button>
+    <button class="tablinks" onclick="openTab(event, 'ControlPannel')" style="float: right;">Control pannel</button>
 </div>
 
-<div id="Home" class="tabcontent" style="display: block;">
-
-</div>
+<div id="Home" class="tabcontent" style="display: block;"></div>
+<div id="revolt+" class="tabcontent"></div>
 
 
 
