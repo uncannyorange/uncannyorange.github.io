@@ -10,8 +10,13 @@ layout: crimson
 ## CRIMSON 2
 <br/>
 
-### CRIMSON 2.0.1 (hey look, it's me!)
+### CRIMSON 2.0.2 (hey look, it's me!)
 - Added changelog to the control pannel
+<br/>
+<br/>
+
+### CRIMSON 2.0.1 (semi-open beta)
+- Made top bar of revolt+ fit on one line
 <br/>
 <br/>
 
