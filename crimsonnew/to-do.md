@@ -6,6 +6,6 @@
 | [D] = done        |
 \-------------------/
 
-- tab based interface [I]
+- tab based interface [D]
 - cryptii pipe tab [n]
-- 
+- remake revolt+ [D]
