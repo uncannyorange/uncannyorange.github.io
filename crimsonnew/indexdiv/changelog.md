@@ -10,8 +10,15 @@ layout: crimson
 ## CRIMSON 2
 <br/>
 
+### CRIMSON 2.0.4 (semi-open beta)
+- Made buttons on control pannel bigger
+<br/>
+<br/>
+
 ### CRIMSON 2.0.3 (semi-open beta)
 - Fixed icon when added to desktop
+<br/>
+<br/>
 
 ### CRIMSON 2.0.2 (hey look, it's me!)
 - Added changelog to the control pannel
