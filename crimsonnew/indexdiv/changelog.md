@@ -1,3 +1,6 @@
+---
+layout: crimson
+---
 # CRIMSON changelog
 <br/>
 <br/>
