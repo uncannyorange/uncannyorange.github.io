@@ -54,17 +54,27 @@ function search() {
     }
   }
 }
+
+function openlist(){
+    var intro, list;
+    intro = document.getElementById('introtext');
+    list = document.getElementById('list');
+
+    intro.style.display = "none";
+    list.style.display = "block";
+
+}
 </script>
 
 </head>
 <body>
 
-<div id="introtext" class="tabcontent" style="display: block; text-align: center;">
+<div id="introtext" style="display: block; text-align: center;">
 <h1>The Library</h1>
 <p>Sites you can use without a browser, right here in CRIMSON</p>
 <button class="crimsondew" 
         style="border: none;display: inline-block; font-size: 100px;margin: 4px 2px;cursor: pointer; width: 100%;" 
-        onclick="openTab(event, 'list')">
+        onclick="openlist()">
         Browse
 </button>
 </div>
