@@ -10,8 +10,12 @@ layout: crimson
 ## CRIMSON 2
 <br/>
 
+### CRIMSON 2.0.5 (semi-open beta)
+- Added Library tab
+- Corrected spelling mistakes (pannel => panel)
+
 ### CRIMSON 2.0.4 (semi-open beta)
-- Made buttons on control pannel bigger
+- Made buttons on control panel bigger
 <br/>
 <br/>
 
