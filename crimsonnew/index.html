@@ -16,6 +16,7 @@ CRIMSON
   $(function(){
     $("#Home").load("indexdiv/home.html");
     $("#revolt").load("indexdiv/revolt.html");
+    $("#library").load("indexdiv/library.html");
 
     // controll pannel
     $("#cntrlpannel").load("indexdiv/cntrlpannel.html");
@@ -2633,14 +2634,16 @@ Cc++89by/wFEEhvZ9w6jUAAAAABJRU5ErkJggg==">
     <!-- Left aligned -->
     <button class="tablinks active" onclick="openTab(event, 'Home')">Home</button>
     <button class="tablinks" onclick="openTab(event, 'revolt')">REVOLT+</button>
-    <button class="tablinks" onclick="openTab(event, 'x')">x</button>
+    <button class="tablinks" onclick="openTab(event, 'library')">Library</button>
   
     <!-- Right aligned -->
-    <button class="tablinks" onclick="openTab(event, 'cntrlpannel')" style="float: right;">Control pannel</button>
+    <button class="tablinks" onclick="openTab(event, 'cntrlpannel')" style="float: right;">Control panel</button>
 </div>
 
 <div id="Home" class="tabcontent" style="display: block;"></div>
 <div id="revolt" class="tabcontent"></div>
+
+<div id="library" class="tabcontent"></div>
 
 <div id="cntrlpannel" class="tabcontent"></div>
 <div id="changelog" class="tabcontent"></div>
