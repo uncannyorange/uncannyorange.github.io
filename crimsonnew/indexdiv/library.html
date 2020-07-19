@@ -68,6 +68,17 @@ function openlist(){
 }
 </script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  $(function(){
+    $('#cryptii').load('library/cryptii.html');
+    $('#nstmfg').load('');
+    $('#nstmfi').load('');
+    $('#nstmfs').load('');
+    $('#sandspiel').load('');
+  });
+</script>
+
 </head>
 <body>
 
@@ -81,11 +92,14 @@ function openlist(){
 </button>
 </div>
 
-<div id="list" class="tabcontent">
+<div id="list" style="display:none;">
 <div style="text-align: center;"><div style="display:inline-block"><input type="text" id="searchbar" onkeyup="search()" placeholder="Search.."></div></div>
 <ul id="list">
-  <li><button onclick="">UO</button></li>
-  <li><button onclick="">X</button></li>
+  <li><button onclick="">Cryptii</button></li>
+  <li><button onclick="">NSTMF Gravity</button></li>
+  <li><button onclick="">NSTMF Img_processing</button></li>
+  <li><button onclick="">NSTMF Sound</button></li>
+  <li><button onclick="">Sandspiel</button></li>
 </ul>
 </div>
 
