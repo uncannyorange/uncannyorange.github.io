@@ -57,19 +57,13 @@ function search() {
   }
 }
 
-function openlist(){
-    var intro, list;
-    intro = document.getElementById('introtext');
-    list = document.getElementById('list');
+/*
+* custom functions
+*/
 
-    intro.style.display = "none";
-    list.style.display = "block";
-
-}
-
-function openapp(id){
-    document.getElementById('list').style.display = 'none';
-    document.getElementById(id).style.display = 'block';
+function switcher(close, open){
+    document.getElementById(close).style.display = 'none';
+    document.getElementById(open).style.display = 'block';
 }
 </script>
 
@@ -92,8 +86,8 @@ function openapp(id){
 <h1>The Library</h1>
 <p>Sites you can use without a browser, right here in CRIMSON</p>
 <button class="crimsondew" 
-        style="border: none;display: inline-block; font-size: 1vw;margin: 4px 2px;cursor: pointer; width: 100%;" 
-        onclick="openlist()">
+        style="border: none;display: inline-block; font-size: 3vw;margin: 4px 2px;cursor: pointer; width: 100%;" 
+        onclick="switcher('introtext', 'list')">
         Browse
 </button>
 </div>
@@ -110,11 +104,11 @@ function openapp(id){
 </div>
 
 <ul id="list">
-  <li><button onclick="openapp('cryptii')">Cryptii</button></li>
-  <li><button onclick="">NSTMF Gravity</button></li>
-  <li><button onclick="">NSTMF Img_processing</button></li>
-  <li><button onclick="">NSTMF Sound</button></li>
-  <li><button onclick="">Sandspiel</button></li>
+  <li><button onclick="switcher('list', 'cryptii')">Cryptii</button></li>
+  <li><button onclick="switcher('list', '')">NSTMF Gravity</button></li>
+  <li><button onclick="switcher('list', '')">NSTMF Img_processing</button></li>
+  <li><button onclick="switcher('list', '')">NSTMF Sound</button></li>
+  <li><button onclick="switcher('list', '')">Sandspiel</button></li>
 </ul>
 
 </div>
