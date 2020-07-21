@@ -10,6 +10,12 @@ layout: crimson
 ## CRIMSON 2
 <br/>
 
+### CRIMSON 2.0.6 (semi-open beta)
+- Added placeholders on library tab
+- Added Cryptii description
+- Added Sanspiel description
+- Added Sandspiel functionallity
+
 ### CRIMSON 2.0.5 (semi-open beta)
 - Added Library tab
 - Corrected spelling mistakes (pannel => panel)

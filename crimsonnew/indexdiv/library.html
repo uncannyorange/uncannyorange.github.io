@@ -68,7 +68,6 @@ function switcher(close, open){
 
 function windowloc(href){
   window.location = href;
-
 }
 </script>
 
@@ -79,7 +78,7 @@ function windowloc(href){
     $('#nstmfg').load('');
     $('#nstmfi').load('');
     $('#nstmfs').load('');
-    $('#sandspiel').load('');
+    $('#sandspiel').load('library/sandspiel.html');
   });
 </script>
 
@@ -113,13 +112,14 @@ function windowloc(href){
   <li><button onclick="switcher('list', '')">NSTMF Gravity</button></li>
   <li><button onclick="switcher('list', '')">NSTMF Img_processing</button></li>
   <li><button onclick="switcher('list', '')">NSTMF Sound</button></li>
-  <li><button onclick="switcher('list', '')">Sandspiel</button></li>
+  <li><button onclick="switcher('list', 'sandspiel')">Sandspiel</button></li>
 </ul>
 
 </div>
 
 <!-- App info divs -->
 <div id="cryptii" style="display:none;"></div>
+<div id="sandspiel" style="display:none;"></div>
 
 </body>
 </html>
