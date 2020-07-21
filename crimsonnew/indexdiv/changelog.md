@@ -10,6 +10,13 @@ layout: crimson
 ## CRIMSON 2
 <br/>
 
+### CRIMSON 2.0.8 (MAOJR ADVANCEMENT)
+- Cryptii is now actually functional
+- Discovered revolutionary thing in the process
+- Will remain secret
+<br/>
+<br/>
+
 ### CRIMSON 2.0.7 (semi-open beta)
 - Added icon for Sandspiel
 - Added Cryptii functionality
