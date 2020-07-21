@@ -10,15 +10,26 @@ layout: crimson
 ## CRIMSON 2
 <br/>
 
+### CRIMSON 2.0.7 (semi-open beta)
+- Added icon for Sandspiel
+- Added Cryptii functionality
+- Added icon for Cryptii
+<br/>
+<br/>
+
 ### CRIMSON 2.0.6 (semi-open beta)
 - Added placeholders on library tab
 - Added Cryptii description
 - Added Sanspiel description
-- Added Sandspiel functionallity
+- Added Sandspiel functionality
+<br/>
+<br/>
 
 ### CRIMSON 2.0.5 (semi-open beta)
 - Added Library tab
 - Corrected spelling mistakes (pannel => panel)
+<br/>
+<br/>
 
 ### CRIMSON 2.0.4 (semi-open beta)
 - Made buttons on control panel bigger
