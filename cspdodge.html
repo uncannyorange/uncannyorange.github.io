@@ -2,6 +2,7 @@
 <script>
   window.addEventListener('message', async e => {
     const resource = await fetch(e.data.url).then(res => res.text());
+    console.log(e.data, resource)
     window.opener.postMessage({resource, e.data.name}, '*');
   });
 </script>
