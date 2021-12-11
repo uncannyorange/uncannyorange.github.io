@@ -1,0 +1,5 @@
+<script>
+  window.addEventListener('message', async e => {
+    const resource = await fetch(e.data).then(res => res.text());
+    window.opener.postMessage(resource, '*');
+  });
