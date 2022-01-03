@@ -5,4 +5,5 @@
     console.log(e.data, resource);
     window.opener.postMessage({resource, name: e.data.name}, '*');
   });
+  window.opener.postMessage({status:"ready"}, '*');
 </script>
