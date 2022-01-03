@@ -1,7 +1,7 @@
 <title>CSPDodge</title>
 <script>
   window.addEventListener('message', async e => {
-    if(e.data == undefined || if e.origin == 'https://discord.com') return;
+    if(e.data == undefined || e.origin == 'https://discord.com') return;
     const resource = await fetch(e.data.url).then(res => res.text());
     console.log(e.data, resource);
     window.opener.postMessage({resource, name: e.data.name}, '*');
