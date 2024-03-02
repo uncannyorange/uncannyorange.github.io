@@ -1,0 +1,7 @@
+<title>Copy some shit</title>
+<p>I'm copyin' this shit</p>
+<script>
+	const thing = decodeURIComponent(location.hash.substr(1));
+	navigator.clipboard.writeText(thing)
+		.then(() => alert("Copied"));
+</script>
