@@ -1,3 +1,0 @@
----
-permalink: /collections/hue
----
