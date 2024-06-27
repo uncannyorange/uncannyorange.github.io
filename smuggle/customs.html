@@ -1,0 +1,11 @@
+<title>self-installing scripts</title>
+<script>
+	const name = location.search.substr(1);
+	const payload = ({
+		s() {
+			return "console.log('freakysauce')"
+		}
+	})[name]();
+	console.log(payload);
+	window.opener.postMessage({ smuggle: payload }, "*")
+</script>

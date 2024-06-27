@@ -1,0 +1,1 @@
+(o=>{let t,s,n=new URL("/smuggle/customs.html?s",o),g=window,h=(w,r)=>e=>s||e.origin==n.origin&&(s=1,w.close(),clearTimeout(t),r((0,eval)(e.data.smuggle))),w=g.open(n,"uo_smgl","width=1,height=1");return g.focus(),w.blur(),new Promise((e,s)=>(t=setTimeout(()=>(w.close(),s("timed out")),1e4),g.addEventListener("message",h(w,e))))})("http://uncannyorange.github.io");
