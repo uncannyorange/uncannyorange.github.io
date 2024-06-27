@@ -1,0 +1,33 @@
+<title>egg</title>
+<script>
+	const storevar = `_${(Math.random() * 1e16).toString(36).replace(/\./g, "0")}`;
+	const makeEgg = (content, input) => `(${input ? "O" : "()"}=>(${content.join(",").replace(/^,|,$/g, "")}))(${input || ""})`;
+	const makeStoreEggs = (storenames) => [
+		makeEgg([`${storevar}=[${storenames.map(name => `this["${name}"]`).join(",")}]`, ...storenames.map(name => `${name}=[]`)]),
+		makeEgg([`[${storenames.join(",")}]=${storevar}`])
+	];
+
+	const storekeys = [];
+	const contentfns = [];
+
+	const thing = location.search.substr(1);
+	const parts = thing.split("&");
+	parts.forEach(part => {
+		const [stores, fns] = part.split(";");
+		storekeys.push(...stores.split(","));
+		console.log(stores, fns.split(","));
+		contentfns.push(fns.split(",").map(fn => decodeURIComponent(fn)));
+	});
+
+	const storenames = storekeys.filter(s => s !== "");
+
+	console.log(storenames.length)
+
+	const storeEggs = storenames.length === 0 ? new Array(2) : makeStoreEggs(storenames);
+	const ship = makeEgg([storeEggs[0], contentfns.map((fn, i) => `O[${i}]()`), storeEggs[1]], `[${contentfns.join(",")}]`);
+
+	console.log(ship);
+
+	// a;()%3D%3E(a%5B0%5D%3D%22silly%22%2Cconsole.log(JSON.stringify(a)))&b;()%3D%3E(b%5B0%5D%3Da%2Cb%5B0%5D%5B0%5D%3Db%2Cconsole.log(b))
+	// ;()%3D%3Econsole.log(%22abc%22)
+</script>
